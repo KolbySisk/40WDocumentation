@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>40W Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header id="site-header">
+		<img src="http://dev.40westarts.org/40W/media/images/Branding/40WLogo_Orange-380x380.png" alt="">
+		<h1>40W Site Documentation</h1>
+	</header>
+	<section id="top">
+		<section id="toc" class="box">
+			<h2>Table of Contents</h2>
+			<h3>Content Administration</h3>
+			<ul>
+				<li><a href="#managing-content">Managing Content</a></li>
+				<li><a href="#wysiwyg">The WYSIWYG Editor</a></li>
+				<li><a href="#adding-page-types">Adding A Page Type</a></li>
+				<li><a href="#creating-pages">Creating A New Page</a></li>
+				<li><a href="#creating-forms">Creating Forms</a></li>
+				<li><a href="#using-forms">Using Forms</a></li>
+				<li><a href="#media-library">The Media Library</a></li>
+				<li><a href="#signing-up-users">Signing Up New Users</a></li>
+				<!-- <li><a href="">Image Sizes</a></li> -->
+				<!-- <li><a href="#">Dashboard</a></li> -->
+				<li><a href="#custom-table-data">Custom Table Data</a></li>
+				<li><a href="user-data">User Data</a></li>
+			</ul>
+		</section>
+			
+		<section id="technologies" class="box">
+			<h2>Technologies</h2>
+			<h3>Frameworks &amp; Languages</h3>
+			<ul>
+				<li><a href="http://www.kentico.com/">Kentico 9</a></li>
+				<li><a href="http://www.asp.net/">.NET 4.6 | C#</a></li>
+				<li><a href="https://angularjs.org/">AngularJS</a></li>
+			</ul>
+			<h3>Devtools & Front-End Build</h3>
+			<ul>
+				<li><a href="http://gulpjs.com/">Gulp</a></li>
+				<li><a href="http://browserify.org/">Browserify</a></li>
+				<li><a href="https://babeljs.io/">Babel</a></li>
+				<li><a href="http://sass-lang.com/">SASS</a></li>
+			</ul>
+		</section>
+
+		<section id="support" class="box">
+			<h2>Site Support</h2>
+			<h3>Developer Support</h3>
+			<ul>
+				<li>Kolby Sisk</li>
+				<li>kolby.sisk@gmail.com</li>
+				<li>205.903.7337</li>
+			</ul>
+
+			<h3>Server Support</h3>
+			<ul>
+				<li>Tom Richardson</li>
+				<li>tom@datausa.com</li>
+				<li>303.708.9708</li>
+			</ul>
+		</section>
+	</section>
+
+	<section id="content">
+		<div id="managing-content" class="content-block">
+			<h2>Managing Content</h2>
+			<p>To manage the content of your site first login to the administration area. To login go to 40westarts.com/admin. Once logged in you'll need to open the <a href="https://docs.kentico.com/display/K9/Working+with+pages">Pages application.</a></p>
+			<img src="https://docs.kentico.com/download/attachments/59637900/pages_application.png?version=1&modificationDate=1402475997921&api=v2" width="100%" alt="">
+			<p>Select the page you want to edit in the content tree. Make sure Page tab is selected, and you'll see your editable areas outlined. Make your changes and then press the save button.</p>
+			<img src="images/2.png" width="50%" alt="">
+			<p>* Note: Sometimes an editable area container a link that will redirect you when you click inside the editable region.</p>
+		</div>
+
+		<div id="wysiwyg" class="content-block">
+			<h2>WYSIWYG</h2>
+			<p>The WYSIWYG (What you see is what you get) editor allows you to add small style tweeks to the content. You can do things like change font size and color, add images or videos, add widgets, write html, and <a href="http://www.kentico.com/product/all-features/web-content-management/wysiwyg-editor">much more.</a></p>
+			<img src="images/3.png" width="50%" alt="">
+		</div>
+
+		<div id="adding-page-types" class="content-block">
+			<h2>Adding Page Types</h2>
+			<p>Dynamic items on the site are managed as <a href="https://docs.kentico.com/display/K81/Page+types">Page Types.</a> Page types make it easy for content admins to add a new item to a list. Adding a new page type is done using the content tree. For example if you want to add a new Opportunity to the About page you should open the About page in the content tree, find the Opportunities folder, click on it and then click the + button. You'll be prompted to select the page type you want to create. Select the page type you're creating and then fill out the form.</p>
+			<img src="images/4.png" width="50%" alt="">
+		</div>
+
+		<div id="creating-pages" class="content-block">
+			<h2>Creating A New Page</h2>
+			<p>Adding a new page is done using the content tree. First select the location you want the new page to live. This is an important step to keeping your site structured and clean. For example if you're creating a new page that will be linked to from the About page, you should create that page under the About page. You can do this by selecting the about page, pressing the + button, and selecting to create a new Page. Enter a name for your page, and select a template. You should select one of the template pages by searching for "template". Once you've created your new page you should go to the Pages tab and start entering content for your page. Your new page will by default be included in the site's navigation, and the url will be relative to the location of the new page in the tree. In our example the page was under the About page, so the url would be 40westarts.org/About/MyNewPage.</p>
+			<img src="images/5.png" width="50%" alt="">
+			<p>To remove your new page from the site's navigation you will need to go to the Navigation settings under the properties tab and uncheck "Show in navigation".</p>
+			<img src="images/6.png" width="25%" alt="" style="float: left">
+			<img src="images/7.png" width="25%" alt="">
+		</div>
+		
+		<div id="creating-forms" class="content-block">
+			<h2>Creating Forms</h2>
+			<p>Creating a new form is done in the <a href="https://docs.kentico.com/display/K8/Forms">Forms application.</a></p>
+			<img src="images/14.png" width="25%" alt="">
+			<img src="images/15.png" width="50%" alt="">
+			<p>To create a new form press the new form button. Enter a name for your form and press Save.</p>
+			<img src="images/16.png" width="50%" alt="">
+			<p>You'll be taken to the Form Builder. This is where you can build out your form by dragging components into the middle region. Play around with all the components and learn what they are. For regular imput fields you should use the Text Box component. For a larger text area use the Text Area component. Once you've added a component to the form you'll see configuration options on the right. This is where you can change the input label, default value, set if it's required, and other settings. You can also add validation rules like a max character limit.</p>
+			<img src="images/18.png" width="50%" alt="">
+			<p>It's important to notice the side menu that will take you to other important configuration options for your new form. On the General page you can set options like where the page should redirect to after submitting, or the button text. The Email Notification page allows you to send an email to a specific email address every time someone submits the form. The Recorded Data page allows you to see the submission data for your form.</p>
+			<img src="images/17.png" width="50%" alt="">
+		</div>
+
+		<div id="using-forms" class="content-block">
+			<h2>Using Forms</h2>
+			<p>You've created a new form; now it's time to add it to a page. Navigate to the Pages application and find the page you wish to add the form to. Click in the editable region and find the exact spot you want to add the form. Find the Insert/Edit Widget button on the WYSIWYG editor. It's the button with a gear in the middle.</p>
+
+			<img src="images/19.png" width="50%" alt="">
+
+			<p>A window will open asking you to select a widget. Search for "form" and select the On-line Form widget. Another window will pop up asking you the name of the form you'd like to use. Press the select button and find and select your new form. Press the Save &amp; Close button, and then finish up by saving the Page.</p>
+			
+			<img src="images/20.png" width="50%" alt="">
+		</div>
+
+		<div id="signing-up-users" class="content-block">
+			<h2>Creating A New User</h2>
+			<p>To create a new user make sure you are logged out and then click on the Sign Up link located at the top right of the page. Scroll down and click on the button for the type of user you wish to sign up (Artist, Business, Founding40). </p>
+
+			<img src="images/21.png" width="50%" alt="">
+
+			<p>Fill out the form. Make sure you use a random password, and don't forget it. Use a service like <a href="https://www.random.org/passwords/">random.org</a> to generate passwords for your users. After signing up the user an email will be sent to the email address you entered in the form with the user's login credentials.</p>
+
+			<img src="images/22.png" width="50%" alt="">
+
+			<p>After signing up you'll be redirected to the user's profile papge. Here you can edit the user's profile info by pressing the Edit button.</p>
+		</div>
+
+		<div id="media-library" class="content-block">
+			<h2>Media Library</h2>
+			<p>The <a href="https://docs.kentico.com/display/K8/Media+library+files">Media Library</a> is where you will manage the site's images. You will see the media library pop up when you're asked to select an image. You can also get to the media library via the Media Library application, similiar to how you get to the Pages application.</p>
+			<img src="images/8.png" width="20%" alt="">
+			<p>You'll see the images media library. Click the edit button to see the content of the images media library.</p>
+			<img src="images/9.png" width="50%" alt="">
+			<p>The contents of the images media library is grouped by folders. You should strive to keep this tree structured nicely. You can create new folders by selecting images in the tree and pressing the + button.</p>
+			<img src="images/10.png" width="50%" alt="">
+			<p>To change the site you're editing click the drop down menu at the top of the page.</p>
+			<img src="images/11.png" width="50%" alt="">
+		</div>
+
+		<div id="custom-table-data" class="content-block">
+			<h2>Custom Table Data</h2>
+			<p>The <a href="https://docs.kentico.com/display/K8/Managing+custom+table+data">Custom Table Data application</a> allows you to manage custom data used throughout the site. This data includes artist mediums, business industries, and event categories. The Custom Table data also contains data for the Artists, Businesses, Projects, Events, and Founding40.</p>
+			<img src="images/12.png" width="50%" alt="">
+			<p>Clicking the edit button will show you the data in the table. Click the edit button for a row in the table to edit that row, or click the New Item button to add to the table.</p>
+			<img src="images/13.png" width="50%" alt="">
+			<p>If the need ever arises that a user's artist/business/project/event data needs to be edited (artist statement for example) this is where you will edit that data.</p>
+		</div>
+
+		<div id="user-data" class="content-block">
+			<h2>User Data</h2>
+			<p>The <a href="https://docs.kentico.com/display/K8/User+management">Users application</a> is where every user on the site stored. This is where you can edit general user data like name, password, admin privilege level, website, and profile image.</p>
+		</div>
+	</section>
+</body>
+</html>
