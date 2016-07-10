@@ -48,7 +48,7 @@ a{
 	box-sizing: border-box;
 	float: left;
 	margin-right: 2%;
-	min-height: 306px;
+	min-height: 365px;
 	border-radius: 5px;
 }
 .box:last-of-type{
