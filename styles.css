@@ -52,7 +52,7 @@ a{
 	box-sizing: border-box;
 	float: left;
 	margin-right: 2%;
-	min-height: 365px;
+	min-height: 387px;
 	border-radius: 5px;
 }
 .box:last-of-type{
